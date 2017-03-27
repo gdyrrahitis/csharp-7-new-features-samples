@@ -9,10 +9,10 @@ namespace CSharpSeven.LocalFunctions
 
         public void Sort()
         {
-            for (var i = _array.Length - 1; i > 0; i--)
-                for (var j = i; j < _array.Length; j++)
-                    if (_array[j] > _array[i])
-                        Swap(i, j);
+            for (var i = _array.Length - 1; i > 1; i--)
+                for (var j = 0; j < i; j++)
+                    if (_array[j] > _array[j + 1])
+                        Swap(j, j + 1);
 
             void Swap(int i, int j)
             {
