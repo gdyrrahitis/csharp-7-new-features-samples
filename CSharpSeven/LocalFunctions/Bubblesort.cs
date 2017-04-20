@@ -1,11 +1,10 @@
-﻿
-namespace CSharpSeven.LocalFunctions
+﻿namespace CSharpSeven.LocalFunctions
 {
     public class Bubblesort
     {
         private readonly int[] _array;
 
-        public Bubblesort(int[] array) =>  _array = array;
+        public Bubblesort(int[] array) => _array = array;
 
         public void Sort()
         {

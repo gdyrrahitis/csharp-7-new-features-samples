@@ -70,11 +70,14 @@
   </Choose>
   <ItemGroup>
     <Compile Include="LocalFunctions\BubblesortTests\Sort.cs" />
-    <Compile Include="OutVariablesTests\GetIntegerFromString.cs" />
     <Compile Include="OutVariablesTests\GetIntegerFromStringWithDiscards.cs" />
-    <Compile Include="PatternMatchingTests\MatchingMachineProduct.cs" />
+    <Compile Include="OutVariablesTests\GetIntTimesTenOrDefault.cs" />
+    <Compile Include="PatternMatching\SwitchCase\MatchingMachineTests\MatchingMachineProduct.cs" />
+    <Compile Include="PatternMatching\Types\TypesWithIsOperatorTests\IsCustomReferenceType.cs" />
+    <Compile Include="PatternMatching\Types\TypesWithIsOperatorTests\IsNullableIntGreaterThanTen.cs" />
     <Compile Include="PersonTests\GetPerson.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThrowExpression\ThrowerTests\GetStringLengthOrThrowIfNull.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -86,6 +89,7 @@
       <Name>CSharpSeven</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

@@ -1,4 +1,4 @@
-﻿namespace CSharpSeven.PatternMatching
+﻿namespace CSharpSeven.PatternMatching.SwitchCase
 {
     public class NotInCaseMachine : IMachine
     {

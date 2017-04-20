@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace CSharpSeven.PatternMatching
+﻿namespace CSharpSeven.PatternMatching.SwitchCase
 {
+    using System;
+
     public class PatternMatching
     {
         public string MatchingMachineProduct(IMachine machine)

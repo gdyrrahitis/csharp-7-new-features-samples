@@ -1,8 +1,8 @@
-﻿using CSharpSeven.LocalFunctions;
-using Xunit;
-
-namespace CSharpSeven.Tests.LocalFunctions.BubblesortTests
+﻿namespace CSharpSeven.Tests.LocalFunctions.BubblesortTests
 {
+    using CSharpSeven.LocalFunctions;
+    using Xunit;
+
     public class Sort
     {
         [Theory]

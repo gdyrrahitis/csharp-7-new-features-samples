@@ -1,6 +1,6 @@
-﻿namespace CSharpSeven.Tests.PatternMatchingTests
+﻿namespace CSharpSeven.Tests.PatternMatching.SwitchCase.MatchingMachineTests
 {
-    using CSharpSeven.PatternMatching;
+    using CSharpSeven.PatternMatching.SwitchCase;
     using System;
     using Xunit;
 

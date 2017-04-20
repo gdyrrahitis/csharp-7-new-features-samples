@@ -1,10 +1,14 @@
 ﻿namespace CSharpSeven.OutVariables
 {
-    public class StringConverterToInteger
+    public static class CustomConverter
     {
-        public static int GetIntegerFromString(string number)
+        public static int GetIntTimesTenOrDefault(string number)
         {
-            int.TryParse(number, out int value);
+            if (int.TryParse(number, out int value)) {
+                return value * 10;
+            }
+
+            // Value variable is visible to this scope, not only inside the if scope
             return value;
         }
 
